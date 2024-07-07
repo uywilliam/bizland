@@ -31,8 +31,11 @@
     border: 2px solid;
 }
 
-.info-item {
-    padding: 20px;
-    border: 2px solid;
-    background-color: color-mix(in srgb, #4154f1, transparent 95%);
+.info-item i{
+    display: flex;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    border-radius: 50px;
 }
